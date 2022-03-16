@@ -25,6 +25,11 @@ const CustomersComponent = () => {
                 <thead>
                     <tr className='thead'>
                         <th>Nazwa</th>
+                        <th>Pierwsze</th>
+                        <th>Drugie</th>
+                        <th>Trzecie</th>
+                        <th>Czwarte</th>
+                        <th>Pole tekstowe</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -33,6 +38,11 @@ const CustomersComponent = () => {
                             customer => 
                             <tr key={customer.id} className='data'>
                                 <td>{customer.name}</td>    
+                                <td>{customer.firstField}</td>    
+                                <td>{customer.secondField}</td>    
+                                <td>{customer.thirdField}</td>    
+                                <td>{customer.fourthField}</td>    
+                                <td>{customer.textArea}</td>    
                             </tr>
                         )
                     }

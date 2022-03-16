@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const FooterComponent = () => {
     return (
@@ -8,12 +7,12 @@ const FooterComponent = () => {
                 <div className='ui stackable inverted divided grid'>
                     <div className='sixteen wide column'>
                         <h4 className='ui inverted header'>CRM</h4>
-                        <p>© 2022 <Link to='https://github.com/bpiotrowski1' style={{color: '#fff'}}>Błażej Piotrowski</Link></p>
+                        <p>© 2022 <a href='https://github.com/bpiotrowski1' style={{color: '#fff'}}>Błażej Piotrowski</a></p>
                     </div>
                 </div>
                 <div className='ui inverted section divider'></div>
                 <div className='ui horizontal inverted small divided link list'>
-                    <Link to='http://netproces.pl' className='item'>NETPROCES</Link>
+                    <a href='http://netproces.pl' className='item'>NETPROCES</a>
                 </div>
             </div>
         </div>

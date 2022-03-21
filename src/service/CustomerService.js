@@ -8,6 +8,10 @@ class CustomerService {
         return axios.get(API_URL);
     }
 
+    createCustomer(customer) {
+        return axios.post(API_URL, customer);
+    }
+
 }
 
 export default new CustomerService();

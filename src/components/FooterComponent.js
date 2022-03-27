@@ -12,7 +12,7 @@ const FooterComponent = () => {
                 </div>
                 <div className='ui inverted section divider'></div>
                 <div className='ui horizontal inverted small divided link list'>
-                    <a href='http://netproces.pl' className='item'>NETPROCES</a>
+                    <a href='https://github.com/bpiotrowski1/crm-rest' className='item'>CRM</a>
                 </div>
             </div>
         </div>

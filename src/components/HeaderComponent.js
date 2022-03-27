@@ -9,8 +9,8 @@ const HeaderComponent = () => {
             </Link>
             <div className='ui container'>
                 <div className='right menu'>
-                    <Link to='/register' className='item'>Rejestracja</Link>
-                    <Link to='/login' className='item'>Zaloguj</Link>
+                    <Link to='/register' className='item'>Register</Link>
+                    <Link to='/login' className='item'>Login</Link>
                 </div>
             </div>
       </div>

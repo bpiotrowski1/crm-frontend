@@ -22,15 +22,15 @@ const CreateCustomerComponent = () => {
     return (
         <div id='main'>
             <br/>
-            <h2>Dodaj klienta</h2>
+            <h2>Create customer</h2>
             <hr/>
             <form className='ui form'>
                 <div className='field'>
-                    <label>Nazwa:</label>    
+                    <label>Name:</label>    
                     <input placeholder='Name' name='name' className='form-control' value={name} onChange={(e) => setName(e.target.value)}/>
                 </div>
                 <br/>
-                <button className='ui positive button' onClick={(e) => saveCustomer(e)}>Zapisz</button>
+                <button className='ui positive button' onClick={(e) => saveCustomer(e)}>Save</button>
                 <Link to='/' className='ui negative button' style = {{marginLeft:"10px"}}>Cancel</Link>
             </form>
         </div>

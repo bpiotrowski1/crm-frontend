@@ -96,6 +96,12 @@ body {
     color: #21BA45;
 }
 
+#form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #footer {
     position:absolute;
     bottom:0;
